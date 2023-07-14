@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <Link
           to="/"
-          className="self-center text-2xl font-semibold whitespace-nowrap"
+          className="self-center text-2xl md:text-xl font-semibold whitespace-nowrap"
         >
           Project Managment
         </Link>
