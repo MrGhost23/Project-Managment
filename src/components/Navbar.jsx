@@ -21,7 +21,7 @@ const Navbar = () => {
           Project Managment
         </Link>
         <div className="w-full md:block md:w-auto">
-          <ul className="font-medium pt-0 p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-2 md:mt-0 md:border-0 md:bg-white flex items-center">
+          <ul className="font-medium pt-0 p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-2 md:mt-0 md:border-0 md:bg-white flex items-center">
             {!user && (
               <div className="hidden md:flex">
                 <li>
