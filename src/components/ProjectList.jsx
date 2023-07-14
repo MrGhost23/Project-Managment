@@ -3,7 +3,7 @@ import Avatar from "./Avatar";
 
 const ProjectList = ({ projects }) => {
   return (
-    <div className="grid mb-10 mr-4 md:mr-0 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid mb-14 mr-4 md:mr-0 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {projects.length === 0 && <p className="text-xl">No projects yet!</p>}
       {projects.map((project) => (
         <Link
