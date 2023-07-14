@@ -4,7 +4,7 @@ import { useCollection } from "../hooks/useCollection";
 const Users = () => {
   const { error, documents: users } = useCollection("users");
   return (
-    <div className="z-40 w-full h-screen p-4 transition-transform bg-white dark:bg-gray-800">
+    <div className="z-40 w-full h-screen p-4 transition-transform bg-white">
       <h5 className="text-lg font-semibold text-gray-500 uppercase">
         All Users
       </h5>

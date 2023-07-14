@@ -4,10 +4,10 @@ import Avatar from "./Avatar";
 const OnlineUsers = () => {
   const { error, documents: users } = useCollection("users");
   return (
-    <div className="md:block hidden z-40 w-[300px] h-screen p-4 transition-transform bg-white dark:bg-gray-800">
+    <div className="md:block hidden z-40 w-[300px] h-screen p-4 transition-transform bg-white">
       <h5
         id="drawer-navigation-label"
-        className="text-base font-semibold text-gray-500 uppercase dark:text-gray-400"
+        className="text-base font-semibold text-gray-500 uppercase"
       >
         All Users
       </h5>

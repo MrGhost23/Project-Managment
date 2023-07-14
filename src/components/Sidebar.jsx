@@ -13,7 +13,7 @@ const Sidebar = () => {
             className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 drop-shadow-xl"
             aria-label="Sidebar"
           >
-            <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 pt-10">
+            <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 pt-10">
               {user && (
                 <div className="flex items-center mb-5">
                   <Avatar photo={user.photoURL} />
@@ -25,10 +25,10 @@ const Sidebar = () => {
               <ul className="space-y-2 font-medium">
                 <NavLink
                   to="/"
-                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                 >
                   <svg
-                    className="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    className="w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -48,7 +48,7 @@ const Sidebar = () => {
                   }
                 >
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -59,7 +59,7 @@ const Sidebar = () => {
                   <span className="flex-1 ml-3 whitespace-nowrap">
                     New Project
                   </span>
-                  <span className="inline-flex items-center justify-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
+                  <span className="inline-flex items-center justify-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full">
                     +
                   </span>
                 </NavLink>
