@@ -1,8 +1,8 @@
-#Project Management App with React
+# Project Management App with React
 
 This application is a user-friendly project management tool designed to help teams and individuals streamline their project planning and collaboration. With a modern React-based frontend, this project offers an intuitive interface and a range of features to boost productivity and teamwork.
 
-Features:
+## Features:
 - Create and manage projects with ease
 - Add tasks, set deadlines, and assign them to team members
 - Collaborate in real-time with integrated messaging
